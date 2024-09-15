@@ -15,10 +15,6 @@ function Navbar() {
                 <li><Link to="/skills">Skills</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
-            <div className="navbar-social">
-                <a href="https://www.linkedin.com/in/mehak-fatima-08a568275/" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/MehakRauf" rel="noopener noreferrer">GitHub</a>
-            </div>
         </nav>
     );
 }
