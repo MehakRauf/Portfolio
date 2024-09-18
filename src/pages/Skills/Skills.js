@@ -27,7 +27,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <section id="skills" className="skills-section">
-      <h1>My Skills</h1>
+      <h1>My Skill Set</h1>
       <div className="skills-container">
         {skillsData.map((skill, index) => (
           <div key={index} className={`skill-card ${index === 0 ? 'highlighted' : ''}`}>

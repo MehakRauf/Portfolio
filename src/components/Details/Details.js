@@ -13,8 +13,8 @@ const Details = () => {
         </div>
         <br/>
         <div className="call-to-action">
-          <a href="#portfolio" className="btn">Explore My Work</a>
-          <a href="#contact" className="btn">Get in Touch</a>
+          <a href="#portfolio" className="btn">MY PROJECTS</a>
+          <a href="#contact" className="btn">GET IN TOUCH</a>
         </div>
       </div>
       <div className="container2">
