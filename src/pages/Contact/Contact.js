@@ -5,7 +5,7 @@ import './Contact.css'; // Import the CSS file for styling
 
 function Contact() {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <h1>Contact Me</h1>
       <p>If you’d like to get in touch, feel free to reach out via the following platforms:</p>
       <div className="contact-info">

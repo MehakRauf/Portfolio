@@ -9,11 +9,11 @@ function Navbar() {
                 <Link to="/">Mehak Fatima</Link>
             </div>
             <ul className="navbar-links">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-                <li><Link to="/skills">Skills</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     );
