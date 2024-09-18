@@ -52,12 +52,17 @@ const projects = [
     codeLink: 'https://github.com/MehakRauf/QuizApp',
     demoLink: 'https://quiz-app-reactjsproject.netlify.app/',
   },
-
   {
     title: 'ToDo App',
     image: todoApp,
     codeLink: 'https://github.com/MehakRauf/ToDoApp',
-    demoLink: 'https://your-live-demo-link.com/calculator-app',
+    demoLink: 'http://localhost:3000',
+  },
+  {
+    title: 'Firebase Authentication Application',
+    image: todoApp,
+    codeLink: 'https://github.com/MehakRauf/FirebaseApplication',
+    demoLink: 'https://firebaseauthenticationusingreactjs.netlify.app/',
   },
 
 ];
