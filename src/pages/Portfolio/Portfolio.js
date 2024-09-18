@@ -8,6 +8,8 @@ import quizApp from '../../assets/quizapp.JPG'
 import weatherApp from '../../assets/weatherapp.JPG'
 import todoApp from '../../assets/todoapp.JPG'
 import notesapp from '../../assets/notesapp.JPG'
+import firebase from '../../assets/firebase.JPG'
+
 
 const projects = [
   {
@@ -60,7 +62,7 @@ const projects = [
   },
   {
     title: 'Firebase Authentication Application',
-    image: todoApp,
+    image: firebase,
     codeLink: 'https://github.com/MehakRauf/FirebaseApplication',
     demoLink: 'https://firebaseauthenticationusingreactjs.netlify.app/',
   },
@@ -70,7 +72,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <section id="portfolio" className="portfolio-section">
-      <h1>My Portfolio</h1>
+      <h1>My Projects</h1>
       <div className="portfolio-container">
         {projects.map((project, index) => (
           <div key={index} className="portfolio-card">

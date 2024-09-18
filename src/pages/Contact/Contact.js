@@ -1,31 +1,31 @@
-// src/pages/Contact/Contact.js
-
 import React from 'react';
-import './Contact.css'; // Import the CSS file for styling
+import './Contact.css'; 
+import linkedIcon from "../../assets/linkedin-icon-2-logo-svgrepo-com.svg";
+import githubIcon from "../../assets/logo-github-svgrepo-com.svg";
+import emailIcon from "../../assets/email-1573-svgrepo-com.svg";
+
 
 function Contact() {
   return (
     <div id="contact" className="contact-container">
-      <h1>Contact Me</h1>
-      <p>If you’d like to get in touch, feel free to reach out via the following platforms:</p>
+      <h1>Contact Details</h1>
+      <p>If you’d like to get in touch, feel free to reach out via any of the following platforms:</p>
       <div className="contact-info">
         <div className="contact-item">
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/linkedin.svg" alt="LinkedIn" className="contact-icon" />
+          <a href="https://www.linkedin.com/in/mehak-fatima-08a568275/" >
+            <img src={linkedIcon} alt="LinkedIn" className="contact-icon" />
             LinkedIn
           </a>
         </div>
         <div className="contact-item">
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/github.svg" alt="GitHub" className="contact-icon" />
+          <a href="https://github.com/MehakRauf" >
+            <img src={githubIcon} alt="GitHub" className="contact-icon" />
             GitHub
           </a>
         </div>
         <div className="contact-item">
-          <a href="mailto:your-email@example.com">
-            <img src="/icons/email.svg" alt="Email" className="contact-icon" />
-            Email
-          </a>
+            <img src={emailIcon} alt="Email" className="contact-icon" />
+             mehak.fatima2386@gmail.com
         </div>
       </div>
     </div>
