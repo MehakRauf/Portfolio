@@ -7,51 +7,59 @@ import newsApp from '../../assets/newsapp.JPG'
 import quizApp from '../../assets/quizapp.JPG'
 import weatherApp from '../../assets/weatherapp.JPG'
 import todoApp from '../../assets/todoapp.JPG'
+import notesapp from '../../assets/notesapp.JPG'
 
 const projects = [
   {
     title: 'Calculator App',
     image: calculatorImage,
-    codeLink: 'https://github.com/your-repo/calculator-app',
-    demoLink: 'https://your-live-demo-link.com/calculator-app',
+    codeLink: 'https://github.com/MehakRauf/CalculatorReact',
+    demoLink: 'https://calculatorbyfatima.netlify.app/',
   },
   {
     title: 'Weather App',
     image: weatherApp,
-    codeLink: 'https://github.com/your-repo/calculator-app',
-    demoLink: 'https://your-live-demo-link.com/calculator-app',
+    codeLink: 'https://github.com/MehakRauf/WeatherAppReactJS',
+    demoLink: 'https://weather-app-reactjsproject.netlify.app/',
   },
   {
-    title: 'ToDo App',
-    image: todoApp,
-    codeLink: 'https://github.com/your-repo/calculator-app',
-    demoLink: 'https://your-live-demo-link.com/calculator-app',
+    title: 'Notes App',
+    image: notesapp,
+    codeLink: 'https://github.com/MehakRauf/NotesApp',
+    demoLink: 'https://noteappbymehak.netlify.app/',
   },
   {
     title: 'Food Delivery App',
     image: foodApp,
-    codeLink: 'https://github.com/your-repo/calculator-app',
-    demoLink: 'https://your-live-demo-link.com/calculator-app',
+    codeLink: 'https://github.com/MehakRauf/FoodDeliveryApp',
+    demoLink: 'https://reactjs-food-delivery-app.netlify.app/',
   },
   {
     title: 'Gemini Clone',
     image: geminiClone,
-    codeLink: 'https://github.com/your-repo/calculator-app',
-    demoLink: 'https://your-live-demo-link.com/calculator-app',
+    codeLink: 'https://github.com/MehakRauf/GeminiClone',
+    demoLink: 'https://geminiclonebymehak.netlify.app/',
   },
   {
     title: 'News App',
     image: newsApp,
-    codeLink: 'https://github.com/your-repo/calculator-app',
-    demoLink: 'https://your-live-demo-link.com/calculator-app',
+    codeLink: 'https://github.com/MehakRauf/News_App',
+    demoLink: 'https://rapidnewsapp.netlify.app/',
   },
   {
     title: 'Quiz App',
     image: quizApp,
-    codeLink: 'https://github.com/your-repo/calculator-app',
+    codeLink: 'https://github.com/MehakRauf/QuizApp',
+    demoLink: 'https://quiz-app-reactjsproject.netlify.app/',
+  },
+
+  {
+    title: 'ToDo App',
+    image: todoApp,
+    codeLink: 'https://github.com/MehakRauf/ToDoApp',
     demoLink: 'https://your-live-demo-link.com/calculator-app',
   },
- 
+
 ];
 
 const Portfolio = () => {
