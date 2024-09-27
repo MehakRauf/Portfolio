@@ -9,7 +9,7 @@ import weatherApp from '../../assets/weatherapp.JPG'
 import todoApp from '../../assets/todoapp.JPG'
 import notesapp from '../../assets/notesapp.JPG'
 import firebase from '../../assets/firebase.JPG'
-
+import edusity from '../../assets/edusity.JPG'
 
 const projects = [
   {
@@ -65,6 +65,12 @@ const projects = [
     image: firebase,
     codeLink: 'https://github.com/MehakRauf/FirebaseApplication',
     demoLink: 'https://firebaseauthenticationusingreactjs.netlify.app/',
+  },
+  {
+    title: 'Edusity University Application',
+    image: edusity,
+    codeLink: 'https://github.com/MehakRauf/Edusity',
+    demoLink: 'https://edusityusingreactjs.netlify.app/',
   },
 
 ];
