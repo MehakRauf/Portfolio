@@ -10,6 +10,7 @@ import todoApp from '../../assets/todoapp.JPG'
 import notesapp from '../../assets/notesapp.JPG'
 import firebase from '../../assets/firebase.JPG'
 import edusity from '../../assets/edusity.JPG'
+import reduxTodo from '../../assets/reduxtodo.JPG'
 
 const projects = [
   {
@@ -70,6 +71,12 @@ const projects = [
     title: 'Edusity University Application',
     image: edusity,
     codeLink: 'https://github.com/MehakRauf/Edusity',
+    demoLink: 'https://edusityusingreactjs.netlify.app/',
+  },
+  {
+    title: 'Redux ToDo Application',
+    image: reduxTodo,
+    codeLink: 'https://github.com/MehakRauf/ReduxTodo',
     demoLink: 'https://edusityusingreactjs.netlify.app/',
   },
 
