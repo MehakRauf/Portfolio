@@ -42,7 +42,7 @@ const Contact = () => {
             <a href="https://github.com/MehakRauf">
               <li><img src={githubIcon} alt="" />GitHub</li>
             </a>
-            <li><img src={emailIcon} alt="" />mehakrauf.2386@gmail.com</li>
+            <li><img src={emailIcon} alt="" />mehak.fatima2386@gmail.com</li>
           </ul>
         </div>
         <div className="contact-cols">

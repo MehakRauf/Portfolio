@@ -77,7 +77,7 @@ const projects = [
     title: 'Redux ToDo Application',
     image: reduxTodo,
     codeLink: 'https://github.com/MehakRauf/ReduxTodo',
-    demoLink: 'https://edusityusingreactjs.netlify.app/',
+    demoLink: 'https://reduxtodoapplication.netlify.app/',
   },
 
 ];

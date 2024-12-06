@@ -3,7 +3,7 @@ import './Skills.css';
 
 const skillsData = [
   {
-    title: 'Frontend Development using HTML, CSS, JavaScript, and ReactJS',
+    title: 'Frontend Development using ReactJS, HTML, CSS, and JavaScript',
     description: 'Experienced in creating responsive and interactive web applications.',
   },
   {
